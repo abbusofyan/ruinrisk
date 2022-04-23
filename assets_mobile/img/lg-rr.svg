@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="512" height="512" style="fill:none;"/>
+    <g id="Artboard11" serif:id="Artboard1">
+        <g transform="matrix(1.01202,0,0,1.01202,-6.14422,-6.12003)">
+            <path d="M510.994,95.273C510.994,46.577 471.459,7.041 422.762,7.041L97.285,7.041C48.588,7.041 9.053,46.577 9.053,95.273L9.053,420.75C9.053,469.447 48.588,508.982 97.285,508.982L422.762,508.982C471.459,508.982 510.994,469.447 510.994,420.75L510.994,95.273Z" style="fill:rgb(255,0,0);"/>
+        </g>
+        <g transform="matrix(22.7968,0,0,22.7968,-4938.9,-4127.02)">
+            <text x="221.297px" y="194.138px" style="font-family:'MilkyNiceClean', 'Milky Nice';font-size:12px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(22.7968,0,0,22.7968,-4811.71,-4022.21)">
+            <text x="221.297px" y="194.138px" style="font-family:'MilkyNiceClean', 'Milky Nice';font-size:12px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(0.864907,0,0,0.864907,45.1098,40.757)">
+            <path d="M231.256,228.744C231.256,228.744 227.916,294.227 230.662,302.193C230.662,302.193 232.86,306.313 234.233,301.918C235.607,297.523 236.431,232.974 234.508,227.481C232.585,221.987 231.256,228.744 231.256,228.744Z" style="fill:rgb(255,0,0);"/>
+        </g>
+    </g>
+</svg>
