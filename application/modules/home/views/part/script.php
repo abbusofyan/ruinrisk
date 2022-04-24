@@ -3,23 +3,20 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 
 <script>
-	const DEFAULT_LAT_LNG = [-6.92, 106.2159];
+	// const DEFAULT_LAT_LNG = [-6.92, 106.2159];
+	const DEFAULT_LAT_LNG = [-6.919312235946464, 106.21974706666153];
 	let SHOW_MASYARAKAT_RENTAN_MARKER = false;
 	let INIT_MASYARAKAT_RENTAN_MARKER = 0;
 	let marker = new Array();
 	var control;
 	var kmz;
 	var filter_on = [];
-	var view_normal = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWJidXNvZnlhbiIsImEiOiJjam05enR1emkybGE4M3dvMjRucXBvZ2lhIn0.c4j6K0QFXysCeYtMDB9OsA';
-	var view_satelite = 'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}';
-
 	let map = L.map('mapid', { zoomControl: false }).setView(DEFAULT_LAT_LNG, 16);
 
-	L.tileLayer(view_satelite,{
+	L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
 		maxZoom: 20,
 		subdomains:['mt0','mt1','mt2','mt3'],
 		position: 'topright',
-			// id: 'mapbox/streets-v11',
 	}).addTo(map);
 
 	L.control.zoom({ position: 'topright' }).addTo(map);

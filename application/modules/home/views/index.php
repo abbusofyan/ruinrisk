@@ -35,11 +35,11 @@
 
 	<?php $this->load->view('part/carousel'); ?>
 
-	<div class="span9" style="height:100%">
+	<!-- <div class="span9" style="height:100%"> -->
 		<div id="map-wrapper">
 			<div id="mapid"></div>	
 		</div>
-	</div>
+	<!-- </div> -->
 
 	<?php $this->load->view('part/modal_filter'); ?>
 
@@ -52,6 +52,8 @@
 </div>
 
 <?php $this->load->view('part/berita') ?>
+
+<?php $this->load->view('part/potensi_bencana') ?>
 
 <?php $this->load->view('layout/end.php') ?>
 

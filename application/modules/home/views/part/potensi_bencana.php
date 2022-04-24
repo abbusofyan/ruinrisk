@@ -1,5 +1,5 @@
-<div class="container berita-terkini mb-5 mt-4">
-<h4 class="text-center">Berita</h4>
+<div class="container berita-terkini mb-5">
+<h4 class="text-center">Potensi Bencana Di Sekitar Anda</h4>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">

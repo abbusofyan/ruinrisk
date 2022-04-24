@@ -13,15 +13,15 @@
     <hr>
     <div class="d-flex justify-content-between status">
         <div class="col-4 text-center">
-            <p><i class="bx bx-sort-down"></i>Kedalaman</p>
+            <p><b><i class="bx bx-sort-down"></i>Kedalaman</b></p>
             <h4>24 Km</h4>
         </div>
         <div class="col-4 text-center">
-            <p><i class="bx bx-walk"></i> Jarak</p>
+            <p><b><i class="bx bx-walk"></i> Jarak</b></p>
             <h4>2,2 Km</h4>
         </div>
         <div class="col-4 text-center">
-            <p><i class="bx bx-swim"></i> Tsunami</p>
+            <p><b><i class="bx bx-swim"></i> Tsunami</b></p>
             <h4>Tidak Berpotensi</h4>
         </div>
     </div>
