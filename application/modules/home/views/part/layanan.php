@@ -1,26 +1,26 @@
 <section id="layanan" class="layanan">
 	<div class="row">
 		<div class="col-3 p-1">
-			<a href="#" class=" text-decoration-none">
-			<div class="menu-item rounded shadow-sm p-0">
-				<img class="d-block m-auto mb-2 mt-1" src="<?=base_url('assets_mobile/img/ic/relawan.png')?>" height="40">
-				<p class="text-center">Data Relawan</p>
-			</div>
-			</a>
-		</div>
-		<div class="col-3 p-1">
-			<a href="#" class=" text-decoration-none">
+			<a href="<?= base_url('/Construction') ?>" class=" text-decoration-none">
 			<div class="menu-item rounded shadow-sm p-0">
 				<img class="d-block m-auto mb-2 mt-1" src="<?=base_url('assets_mobile/img/ic/kejadian.png')?>" height="40">
-				<p class="text-center">Data Kejadian</p>
+				<p class="text-center">Potensi Bencana</p>
 			</div>
 			</a>
 		</div>
 		<div class="col-3 p-1">
-			<a href="#" class=" text-decoration-none">
+			<a href="<?= base_url('/Construction') ?>" class=" text-decoration-none">
 			<div class="menu-item rounded shadow-sm p-0">
-				<img class="d-block m-auto mb-2 mt-1" src="<?=base_url('assets_mobile/img/ic/resiko.png')?>" height="40">
-				<p class="text-center">Data Resiko</p>
+				<img class="d-block m-auto mb-2 mt-1" src="<?=base_url('assets_mobile/img/ic/tsunami.png')?>" height="40">
+				<p class="text-center">Kejadian Bencana</p>
+			</div>
+			</a>
+		</div>
+		<div class="col-3 p-1">
+			<a href="<?= base_url('/Construction') ?>" class=" text-decoration-none">
+			<div class="menu-item rounded shadow-sm p-0">
+				<img class="d-block m-auto mb-2 mt-1" src="<?=base_url('assets_mobile/img/ic/tent.png')?>" height="40">
+				<p class="text-center">Posko Relawan</p>
 			</div>
 			</a>
 		</div>

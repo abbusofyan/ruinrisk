@@ -108,9 +108,7 @@
                     </ul>
                 </div>
             </nav>
-            <!-- <a class="btn btn-menu headerButton" data-toggle="modal" data-target="#sidebarPanel" href="#">
-                <i class="bx bx-menu-alt-right"></i>
-            </a> -->
+           
         </div>
     </div>
     <div class="col-6 pt-3 pb-3">
