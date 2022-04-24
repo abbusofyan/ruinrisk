@@ -1,11 +1,5 @@
 <?php $this->load->view('layout/start.php') ?>
 <style>
-	#mapid { 
-		height: 400px; 
-		width: 100%; 
-		z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
-	}
-
 	#map-wrapper {
 		width: 100%;
 		height: 500px;
@@ -18,12 +12,16 @@
 		height: 100%;
 	}
 
-	#button-wrapper {
-		position: absolute;
-		bottom: 10px;
-		width: 100%;
-		align-items: center;
-		/* border: 1px solid red; */
+	.easy-button-button {
+		width:30px;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 2px;
+		border-bottom-left-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+
+	.filter-active {
+		background-color: #F9BFBF;
 	}
 </style>
 
@@ -40,11 +38,6 @@
 	<div class="span9" style="height:100%">
 		<div id="map-wrapper">
 			<div id="mapid"></div>	
-			<div id="button-wrapper">
-			<button type="button" class="btn btn-danger" id="btn1" data-bs-toggle="modal" data-bs-target="#modalFilter">
-				filter
-			</button>
-			</div> 
 		</div>
 	</div>
 
