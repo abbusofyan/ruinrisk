@@ -24,14 +24,38 @@
     <!-- <link rel="stylesheet" href="assets/aos/aos.css"> -->
 
     <style>
-        #mapid { 
-            height: 400px; 
-            width: 100%; 
-            z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+        #map-wrapper {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            border: 1px solid black;
+        }
+
+        #mapid {
+            width: 100%;
+            height: 100%;
+        }
+
+        .easy-button-button {
+            width:30px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+
+        .filter-active {
+            background-color: #F9BFBF;
         }
     </style>
+    <script>
+        var DEFAULT_LAT_LNG = [-6.919312235946464, 106.21974706666153];
+    </script>
 </head>
 <body>
+    <input type="hidden" name="" id="base_url" value="<?= base_url() ?>">
+
+
     <main id="main" class="main">
 
         <div id="hero" class="hero">
@@ -41,3 +65,5 @@
                 include('header.php');
             }?>
         </div>
+
+        <?php include('modal_filter_map.php')?>

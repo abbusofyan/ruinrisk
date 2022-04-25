@@ -7,15 +7,17 @@ class Potensi extends MX_Controller
         parent::__construct();
         $this->load->model('m_potensi');
         $this->load->helper('file');
+        $this->load->helper('image_carousel');
     }
 
     function index()
-    {
-        $this->load->view('index.php');
+    {   
+        $data['potensi'] = $this->m_potensi->get();
+        $this->load->view('index.php', $data);
     }
 
-    function add() {
-        $this->m_potensi->add($this->input->post());
+    function store() {
+        $this->m_potensi->store($this->input->post());
         redirect('/');
     }
 
@@ -36,6 +38,16 @@ class Potensi extends MX_Controller
             $file_name = upload($_FILES,$path);
             echo $file_name;
         }
+    }
+
+    function add()
+    {
+        $this->load->view('add.php');
+    }
+
+    function show($id) {
+        $data['potensi'] = $this->m_potensi->find($id);
+        $this->load->view('show', $data);
     }
     
 }
