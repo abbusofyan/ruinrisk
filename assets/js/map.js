@@ -70,7 +70,6 @@ function filter(filter) {
 $(".filter").click(function() {
     var val = $(this).attr('data-val');
     var el = $(this);
-    alert(val)
     if (val == 'masyarakat rentan') {
         masyarakatRentan()
     } else {
