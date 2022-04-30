@@ -36,7 +36,7 @@
                                     <p class="fw-bold">Potensi Bencana</p>
                                 </div>
                                 <div>
-                                    <p class="bg-danger rounded-pill p-2 text-white fw-bold">5</p>
+                                    <p class="bg-danger rounded-pill p-2 text-white fw-bold"><?= $jml_potensi ?></p>
                                 </div>
                             </div>
                         </div>

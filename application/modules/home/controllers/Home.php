@@ -13,6 +13,7 @@ class Home extends MX_Controller
         $data['title'] = 'index | users';
         $data['content'] = 'daftar list users akses';
         $limit = 2;
+        $data['jml_potensi'] = $this->m_home->getJmlPotensi();
         $data['potensi'] = $this->m_home->getLatestPotensiBencana($limit);
         $this->load->view('index.php', $data);
     }

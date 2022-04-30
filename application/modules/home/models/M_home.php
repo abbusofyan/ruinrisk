@@ -14,4 +14,8 @@ class M_home extends CI_Model {
         return $this->db->get('potensi')->result_array();
     }
 
+    function getJmlPotensi() {
+        return $this->db->get('potensi')->num_rows();
+    }
+
 }
