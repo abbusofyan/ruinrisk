@@ -1,5 +1,5 @@
 <?php
-class Cuaca extends MX_Controller
+class Account extends MX_Controller
 {
 
     function __construct()

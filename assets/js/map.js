@@ -61,7 +61,7 @@ function filter(filter) {
         OpenTopoMap.addTo(map);
 
         window['kmz_' + filter] = L.kmzLayer().addTo(map);
-        window['kmz_' + filter].load('assets/kmz/' + file);
+        window['kmz_' + filter].load(base_url+'assets/kmz/' + file);
         filter_on.push(filter)
         $(this).css('background-color', '#F9BFBF');
     }
@@ -119,6 +119,7 @@ function showMasyarakatRentanMarker() {
         marker.push(LamMarker);
         map.addLayer(LamMarker);
         })
+        filter_on.push('masyarakat rentan')
         INIT_MASYARAKAT_RENTAN_MARKER = 1;
     } else {
         // loop coordinates from var marker
@@ -129,6 +130,7 @@ function showMasyarakatRentanMarker() {
 }
 
 function clearMayarakatRentanMarker() {
+    filter_on = filter_on.filter(item => item !== 'masyarakat rentan')
     for(i=0;i<marker.length;i++) {
         map.removeLayer(marker[i]);
     }

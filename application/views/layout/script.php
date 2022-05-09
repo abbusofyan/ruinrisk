@@ -9,6 +9,8 @@
 <script type="text/javascript" src="<?= base_url('assets/js/map.js') ?>"></script>
 
 <script>
+    const base_url = $('#base_url').val();
+    
     const tabs= document.querySelectorAll(".tab");
         tabs.forEach((clickedTab)=>{
             clickedTab.addEventListener('click',()=>{
@@ -22,5 +24,13 @@
                 );
             });
         });
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
 </script>
 

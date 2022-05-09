@@ -10,6 +10,8 @@ class Home extends MX_Controller
 
     function index()
     {   
+        // $this->router->fetch_class() == 'Home' && $this->router->fetch_method() == 'index'
+        // dd($this->router->fetch_class());
         $data['title'] = 'index | users';
         $data['content'] = 'daftar list users akses';
         $limit = 2;

@@ -379,6 +379,11 @@ a{
     max-width: 100px;
     transition: max-width 0.4s linear;
   }
+  .tab-menu.active{
+    background-color: rgba(255, 255, 255, 0.15);;
+    /* color: red !important; */
+    color: white;
+  }
   .tab-menu.active.purple{
     background-color: rgba(27, 119, 186, 0.2);
     color: rgba(27, 119, 186, 1);
@@ -882,6 +887,10 @@ a{
 
 .btm-btn-ic {
   color: white !important;
+}
+
+.btm-btn-ic-active {
+  color: #F24849 !important;
 }
 
 .peringatan {

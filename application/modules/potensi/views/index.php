@@ -4,6 +4,14 @@
 <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet"/>
 
 <div class="container pb-3">
+    
+
+	<div class="d-flex lapor">
+		<div class="d-grid flex-grow-1 pr-2">
+			<a href="<?= base_url('potensi/add') ?>" class="btn btn-danger btn-block">Lapor Potensi</a>
+		</div>
+	</div>
+    
     <?php foreach ($potensi as $pot) { ?>
         <div class="card mt-3">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -28,7 +36,7 @@
             <div class="card-body">
                 <h5 class="card-title"><?= $pot['title'] ?></h5>
                 <p class="card-text"><?= $pot['description'] ?></p>
-            	<a href="<?= base_url('potensi') ?>"><span class="badge rounded-pill bg-danger">More..</span></a> 
+            	<a href="<?= base_url('potensi/show/'.$pot['id']) ?>"><span class="badge rounded-pill bg-danger">More..</span></a> 
             </div>
         </div>
     <?php } ?>

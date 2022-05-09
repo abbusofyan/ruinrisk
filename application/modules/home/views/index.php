@@ -1,10 +1,4 @@
 <?php $this->load->view('layout/start.php') ?>
-<style>
-    a, a:hover, a:focus, a:active {
-        text-decoration: none;
-        color: inherit;
-    }
-</style>
 
 <?php $this->load->view('part/layanan'); ?>
 
@@ -17,13 +11,6 @@
 
 	<div id="map-wrapper">
 		<div id="mapid"></div>	
-	</div>
-
-
-	<div class="d-flex lapor">
-		<div class="d-grid flex-grow-1 pr-2">
-			<a href="<?= base_url('potensi/add') ?>" class="btn btn-danger btn-block">Lapor Potensi</a>
-		</div>
 	</div>
 	
 </div>

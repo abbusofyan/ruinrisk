@@ -3,7 +3,7 @@
 <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet" />
 <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet"/>
 
-<div id="head" class="head">
+<!-- <div id="head" class="head">
     <div class="row align-items-center">
         <div class="col-12">
             <div class="logo d-flex align-items-center">
@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container p-3 mb-5">
     <div class="form">
@@ -35,7 +35,9 @@
             </div>
             <div class="mb-3">
                 <label for="exampleDataList" class="form-label fw-bold">Titik Lokasi</label>
-                <div id="mapid"></div>	
+                <div id="map-wrapper">
+                    <div id="mapid"></div>	
+                </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"><i class='bx bx-current-location'></i></span>
                     <input type="text" class="form-control rounded-5 form-control-lg" placeholder="Posisi" aria-label="Posisi" aria-describedby="basic-addon1">
@@ -59,25 +61,6 @@
 <script src="https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"></script>
 
 <script>
-    const DEFAULT_LAT_LNG = [-6.92, 106.2159];
-    var marker;
-    let map = L.map('mapid').setView(DEFAULT_LAT_LNG, 16);
-
-    L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
-        maxZoom: 20,
-        subdomains:['mt0','mt1','mt2','mt3']
-    }).addTo(map);
-
-    map.on('click', function(e) {
-        if (marker) {
-            map.removeLayer(marker);
-        }
-        marker = new L.marker([e.latlng.lat, e.latlng.lng]).addTo(map)
-        map.addLayer(marker);
-        $('#lat').val(e.latlng.lat);
-        $('#lng').val(e.latlng.lng);
-    });
-
     FilePond.registerPlugin(FilePondPluginImagePreview);
     FilePond.create(
         document.querySelector('#images')

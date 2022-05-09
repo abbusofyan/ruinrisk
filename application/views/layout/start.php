@@ -18,6 +18,7 @@
 
     <!--  INTERNAL -->
     <link rel="stylesheet" href="<?= base_url('assets_mobile/css/style.css')?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url('assets/css/sidebar.css')?>" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets_mobile/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets_mobile/vendor/boxicons/css/boxicons.min.css') ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
@@ -47,6 +48,13 @@
         .filter-active {
             background-color: #F9BFBF;
         }
+
+        a, a:hover, a:focus, a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        
     </style>
     <script>
         var DEFAULT_LAT_LNG = [-6.919312235946464, 106.21974706666153];
@@ -61,7 +69,7 @@
         <div id="hero" class="hero">
             <?php include('sidebar_menu.php') ?>
 
-            <?php if ($this->router->fetch_class() == 'Home' && $this->router->fetch_method() == 'index') {
+            <?php if ($this->router->fetch_class() == 'home' && $this->router->fetch_method() == 'index') {
                 include('header.php');
             }?>
         </div>

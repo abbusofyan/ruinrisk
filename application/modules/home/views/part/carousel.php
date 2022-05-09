@@ -26,7 +26,7 @@
                         </a>
                     </div>
                     <div class="col-6">
-                        <a href="" class="text-decoration-none text-dark">
+                        <a href="<?= base_url('/potensi') ?>" class="text-decoration-none text-dark">
                         <div class="card-ben rounded shadow-sm p-2">
                             <div class="d-flex gap-2">
                                 <div>
