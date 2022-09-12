@@ -1,0 +1,55 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-09-12 13:53:06 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:09:29 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:09:33 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:24:58 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:26:23 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:26:57 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:27:00 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:27:27 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:27:33 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:28:00 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:29:54 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:30:22 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:33:56 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:34:35 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:35:19 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:35:57 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:38:11 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:38:29 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:38:46 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:39:20 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:39:47 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:40:37 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:40:53 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:42:05 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:57:25 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:57:31 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:59:04 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:59:13 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 14:59:16 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:01:34 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:02:06 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:04:55 --> 404 Page Not Found: ../modules/Potensi/controllers/Potensi/uploadImage
+ERROR - 2022-09-12 15:05:04 --> 404 Page Not Found: ../modules/Potensi/controllers/Potensi/uploadImage
+ERROR - 2022-09-12 15:06:32 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:07:12 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:07:19 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:09:20 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:10:57 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:11:48 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:12:48 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:15:37 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:17:13 --> Severity: Notice --> Undefined variable: filename C:\wamp64\www\ruinrisk\application\helpers\file_helper.php 26
+ERROR - 2022-09-12 15:19:56 --> Severity: error --> Exception: Using $this when not in object context C:\wamp64\www\ruinrisk\application\helpers\file_helper.php 26
+ERROR - 2022-09-12 15:21:10 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:23:44 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:24:37 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:24:59 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:27:23 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:27:56 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:28:17 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:28:21 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:28:48 --> 404 Page Not Found: /index
+ERROR - 2022-09-12 15:50:33 --> 404 Page Not Found: /index
