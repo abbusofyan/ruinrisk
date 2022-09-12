@@ -56,7 +56,7 @@
     FilePond.setOptions({
         server: {
             process: {
-                url: "<?= base_url('Potensi/uploadImage') ?>",
+                url: "<?= base_url('potensi/uploadImage') ?>",
                 method: 'POST',
                 onload: (response) => {
                     var filenames = $('#filename').val();
